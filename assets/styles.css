@@ -30,3 +30,19 @@ body {
 }
 /* Tip calculator input end */
 
+/* percentage value */
+.percentage {
+    padding-top: 20px;
+} 
+
+/* Results btn */
+.Results-btn{
+    
+    display: flex;
+    margin: 50px;
+    margin-inline: auto;
+}
+.Results-btn:hover {
+    font-size: 100%;
+    font-weight: bolder;
+}
