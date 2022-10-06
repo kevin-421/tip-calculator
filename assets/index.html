@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tip-calculator</title>
     <link rel="stylesheet" href="/assets/styles.css">
-    <script src="/calculator.js"></script>
 </head>
 <body>
     <div class="calculator">
         <h1>Tip Calculator</h1>
         <span class="currency-code">Bill Amount $</span>
-        <input class="money-input" type="number">
+        <input class="money-input" type="number" id="input">
         
         
         <!-- tip percentage --> 
@@ -29,10 +28,16 @@
             </select>
             
             <!--Results-->
-            <button class="Results-btn">Results</button>
+            <form id="button-submit">
+                <button class="Results-btn">Results</button>
+            
+                <output class="output"></output>
+            </form>
 
+            
         </div>
         
     </div>
+<script src="/calculator.js"></script>
 </body>
 </html>

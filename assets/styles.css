@@ -46,3 +46,9 @@ body {
     font-size: 100%;
     font-weight: bolder;
 }
+
+/* Output from results */
+.output {
+    display: flex;
+    justify-content: center;
+}
