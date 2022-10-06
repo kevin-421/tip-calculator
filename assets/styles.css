@@ -46,7 +46,10 @@ body {
     font-size: 100%;
     font-weight: bolder;
 }
-
+.total {
+    display: flex;
+    justify-content: center;
+}
 /* Output from results */
 .output {
     display: flex;
