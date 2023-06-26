@@ -1,4 +1,4 @@
-  let FiveDecimal = 0.5;
+  let FiveDecimal = 0.05;
   let TenDecimal = 0.10;
   let FifteenDecimal = 0.15;
   let TwentyDecimal = 0.20;
